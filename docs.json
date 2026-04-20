@@ -18,16 +18,8 @@
           "dark": "#3E96F4"
         },
         "pages": [
-          "Welcome"
+          "Main/Welcome"
         ]
-      },
-      {
-        "anchor": "Allgemein",
-        "icon": "address-card",
-        "color": {
-          "light": "#3E96F4",
-          "dark": "#3E96F4"
-        }
       },
       {
         "anchor": "Minecraft Server",
