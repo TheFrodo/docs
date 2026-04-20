@@ -29,6 +29,7 @@
         },
         "pages": [
           "Minecraft-Server/Allgemein/informationen",
+          "Minecraft-Server/Allgemein/modpack",
           "Minecraft-Server/Allgemein/changelog",
           {
             "group": "Allgemein",
