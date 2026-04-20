@@ -1,0 +1,95 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Wiki - TheFrodoDE",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/logo/logo.png",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Startseite",
+        "icon": "apartment",
+        "color": {
+          "light": "#3E96F4",
+          "dark": "#3E96F4"
+        },
+        "pages": [
+          "Welcome"
+        ]
+      },
+      {
+        "anchor": "Allgemein",
+        "icon": "address-card",
+        "color": {
+          "light": "#3E96F4",
+          "dark": "#3E96F4"
+        }
+      },
+      {
+        "anchor": "Minecraft Server",
+        "color": {
+          "light": "#3E96F4",
+          "dark": "#3E96F4"
+        },
+        "pages": [
+          "Minecraft-Server/Allgemein/informationen",
+          "Minecraft-Server/Allgemein/changelog",
+          {
+            "group": "Allgemein",
+            "pages": [
+              "Minecraft-Server/Allgemein/befehle",
+              "Minecraft-Server/Allgemein/mod-benutzung"
+            ]
+          },
+          {
+            "group": "Land Claim",
+            "pages": [
+              "Minecraft-Server/Landclaim/landclaim"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Discord Server",
+        "href": "https://discord.gg/adfyPhZ2q6"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://thefrodo.de",
+      "discord": "https://discord.gg/adfyPhZ2q6",
+      "instagram": "https://instagram.com/thefrodode",
+      "bluesky": "https://bsky.app/profile/thefrodo.de"
+    }
+  }
+}
