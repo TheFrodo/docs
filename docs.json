@@ -19,7 +19,8 @@
         },
         "pages": [
           "Main/Welcome"
-        ]
+        ],
+        "hidden": true
       },
       {
         "anchor": "Minecraft Server",
